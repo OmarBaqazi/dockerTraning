@@ -2,16 +2,43 @@
 
 In this exercise, we'll learn the basics of pulling images, starting, stopping, and removing containers.
 
+To check if any container is running 
+
+    ```
+    $ docker ps 
+    ```
+
+
 ### Pulling an image
 
 To run containers, we'll first need to pull some images.
 
-1. Let's see what images we have currently on our machine, by running `docker images`:
-
     ```
     $ docker images
+    $ docker image ls
     REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
     ```
+
+
+Running Nginx Web Server.
+
+    ```
+    $ docker run nginx 
+    ```
+
+Running Nginx Web Server In the background.
+
+    ```
+    $ docker run -d nginx 
+    ``` 
+
+To see the logs .
+
+    ```
+    $ docker logs container_Id
+    $ docker logs -f container_Id
+    ``` 
+
 
 2. On a fresh Docker installation, we should have no images. Let's pull one from Dockerhub.
 
@@ -304,5 +331,9 @@ The command can be anything you want, as long as it exists on the image. In the 
     CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
     $
     ```
+
+# References
+
+1- https://github.com/delner/docker-training/tree/master/exercises 
 
 # END OF EXERCISE 1

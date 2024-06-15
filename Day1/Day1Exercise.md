@@ -4,6 +4,18 @@ In this exercise, we'll learn the basics of pulling images, starting, stopping, 
 
 ### Pulling an image
 
+Running Nginx Web Server.
+
+    ```
+    $ docker run nginx 
+
+To run it in the bakcround 
+    $ docker run -d nginx 
+
+To see the logs 
+    $ docker logs container_Id
+    $ docker logs -f container_Id
+    
 To run containers, we'll first need to pull some images.
 
     ```

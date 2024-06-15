@@ -10,9 +10,10 @@ Running Nginx Web Server.
     $ docker run nginx 
     ```
 
-To run it in the bakcround.
+Running Nginx Web Server In the background.
+
     ```
-    $ docker run -d nginx
+    $ docker run nginx 
     ``` 
 
 To see the logs .

@@ -303,4 +303,8 @@ The command can be anything you want, as long as it exists on the image. In the 
     $
     ```
 
+# References
+
+1- https://github.com/delner/docker-training/tree/master/exercises 
+
 # END OF EXERCISE 1

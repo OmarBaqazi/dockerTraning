@@ -17,11 +17,11 @@ Running Nginx Web Server In the background.
     ``` 
 
 To see the logs .
+
     ```
     $ docker logs container_Id
     $ docker logs -f container_Id
-
-    ```
+    ``` 
     
 To run containers, we'll first need to pull some images.
 

@@ -4,6 +4,15 @@ In this exercise, we'll learn the basics of pulling images, starting, stopping, 
 
 ### Pulling an image
 
+To run containers, we'll first need to pull some images.
+
+    ```
+    $ docker images
+    $ docker image ls
+    REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+    ```
+
+
 Running Nginx Web Server.
 
     ```
@@ -22,14 +31,7 @@ To see the logs .
     $ docker logs container_Id
     $ docker logs -f container_Id
     ``` 
-    
-To run containers, we'll first need to pull some images.
 
-    ```
-    $ docker images
-    $ docker image ls
-    REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-    ```
 
 2. On a fresh Docker installation, we should have no images. Let's pull one from Dockerhub.
 

@@ -16,7 +16,7 @@ To run containers, we'll first need to pull some images.
     We usually pull images from DockerHub by tag. These look like:
 
     ```
-     # Official docker image ls
+     # docker image ls
     # Official Docker images
     <repo>:<tag>
     # ubuntu:16.04

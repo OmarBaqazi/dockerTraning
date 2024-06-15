@@ -8,11 +8,15 @@ Running Nginx Web Server.
 
     ```
     $ docker run nginx 
+    ```
 
 To run it in the bakcround 
-    $ docker run -d nginx 
+    ```
+    $ docker run -d nginx
+    ``` 
 
 To see the logs 
+    ```
     $ docker logs container_Id
     $ docker logs -f container_Id
 

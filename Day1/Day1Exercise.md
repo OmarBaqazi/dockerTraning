@@ -29,7 +29,7 @@ Running Nginx Web Server.
 Running Nginx Web Server In the background.
 
     ```
-    $ docker run nginx 
+    $ docker run -d nginx 
     ``` 
 
 To see the logs .

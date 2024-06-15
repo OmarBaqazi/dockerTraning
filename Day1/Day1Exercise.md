@@ -2,6 +2,13 @@
 
 In this exercise, we'll learn the basics of pulling images, starting, stopping, and removing containers.
 
+To check if any container is running 
+
+    ```
+    $ docker ps 
+    ```
+
+
 ### Pulling an image
 
 To run containers, we'll first need to pull some images.

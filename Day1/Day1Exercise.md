@@ -6,8 +6,6 @@ In this exercise, we'll learn the basics of pulling images, starting, stopping, 
 
 To run containers, we'll first need to pull some images.
 
-1. Let's see what images we have currently on our machine, by running `docker images`:
-
     ```
     $ docker images
     REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
